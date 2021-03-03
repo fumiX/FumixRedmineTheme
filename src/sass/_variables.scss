@@ -17,7 +17,7 @@ $color-status:                  true !default;
 $color-priorities:              false !default;
 $priority-icon:                 true !default;
 $use-gravatars:                 true !default;
-$use-logo:                      false !default;
+$use-logo:                      true !default;
 $use-retina-logo:               false !default;
 $use-project-tiles:             true !default;
 $issue-subject-large:           true !default;
@@ -39,7 +39,7 @@ $orange:                        #fc8c12 !default;
 $yellow:                        #ffc107 !default;
 $green:                         #029934 !default;
 $teal:                          #00b3ad !default;
-$neon:                          #f03 !default;
+$neon:                          #f08 !default;
 
 $white:                         #fff !default;
 $black:                         #000 !default;
@@ -572,8 +572,8 @@ $quick-search-box-width:        300px !default;
 $quick-search-dropdown-bg:      $body-bg !default;
 $quick-search-dropdown-border:  $gray-400 !default;
 
-$logo-image-width:              60px !default;
-$logo-image-height:             40px !default;
+$logo-image-width:              42px !default;
+$logo-image-height:             42px !default;
 $logo-position-horizontal:      $header-padding-vertical !default;
 $logo-position-vertical:        center !default;
 $logo-space:                    floor($header-padding-vertical / 2) !default;
