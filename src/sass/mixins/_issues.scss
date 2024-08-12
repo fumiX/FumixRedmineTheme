@@ -32,16 +32,16 @@
   a#{$parent},
   .relations > span > a#{$parent},
   .parent > a#{$parent} {
-    background-color: $background;
-    color: $color;
+    background-color: $background !important;
+    color: $color !important;
 
     &:hover {
       @if hue($background) > 15deg and hue($background) < 40deg {
-        background-color: darken(adjust-hue($background, -8deg), 8%);
+        background-color: darken(adjust-hue($background, -8deg), 8%) !important;
       } @else {
-        background-color: darken($background, 10%);
+        background-color: darken($background, 10%) !important;
       }
-      color: $color;
+      color: $color !important;
     }
   }
 
