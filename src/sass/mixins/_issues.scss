@@ -36,17 +36,17 @@
   a#{$parent},
   .relations > span > a#{$parent},
   .parent > a#{$parent} {
-    background-color: $background;
-    color: $color;
+    background-color: $background !important;
+    color: $color !important;
 
     &:hover {
       @if color.channel($background, 'hue', $space: hsl) > 15deg and color.channel($background, 'hue', $space: hsl) < 40deg {
-        background-color: color.adjust(color.adjust($background, $hue: -8deg), $lightness: -8%);
+        background-color: color.adjust(color.adjust($background, $hue: -8deg), $lightness: -8%) !important;
       } @else {
-        background-color: color.adjust($background, $lightness: -10%);
+        background-color: color.adjust($background, $lightness: -10%) !important;
       }
 
-      color: $color;
+      color: $color !important;
     }
   }
 
