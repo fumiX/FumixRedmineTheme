@@ -32,12 +32,11 @@
     "grunt": "^1.6.1",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^4.0.0",
-    "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "sass": "^1.89.2",
     "stylelint": "^16.21.1",
     "stylelint-config-property-sort-order-smacss": "^10.0.0",
-    "stylelint-config-standard-scss": "^15.0.1"
+    "stylelint-config-standard-scss": "16.0.0"
   },
   "browserslist": [
     "last 2 versions",
@@ -46,5 +45,8 @@
   ],
   "lint-staged": {
     "src/**/*.scss": []
+  },
+  "engines": {
+    "node": "24"
   }
 }
